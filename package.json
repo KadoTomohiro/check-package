@@ -1,0 +1,21 @@
+{
+  "name": "check-package",
+  "version": "1.0.0",
+  "description": "NPMプロジェクトから指定されたパッケージのバージョンをチェックするスクリプト",
+  "main": "check-packages.js",
+  "scripts": {
+    "start": "node check-packages.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "semver": "^7.5.4"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "version",
+    "checker"
+  ],
+  "author": "",
+  "license": "MIT"
+}
